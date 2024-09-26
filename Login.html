@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body{
+            background-image: url(img/UATLOGIN.jpg);
+        }
+
+        form, div{
+
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+            margin-right: 400px;
+            margin-left: 400px;
+            
+        }
+
+        form{
+             background-color: rgba(0, 0, 0, 0.5);   
+        }
+        label, h1{
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: white;
+            font-size: 30px;
+            position:relative;
+            
+            
+        }
+        input{
+            width: 200px;
+            font-size: 20px;
+            
+        }
+        #btnIniciarSesion{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Iniciar sesion</h1>
+            <div>
+                <label>Usuario</label>
+                <input type="text">
+            </div>
+            <div>
+                <label>Contraseña</label>
+                <input type="password">
+            </div>
+            <div>
+                <input id="btnIniciarSesion" type="submit" value="Iniciar sesion">
+                
+            </div>
+    </form>
+</body>
+</html>
